@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<%@ page import="java.io.*,java.util.*, javax.servlet.*" %>
+<html>
+<head>
+<title>Current Date & Time</title>
+</head>
+<body>
+<center>
+<h1> Current Date & Time</h1>
+</center>
+<%
+   Date date = new Date();
+   out.print( "<h2 align=\"center\">" +date.toString()+"</h2>");
+%>
+</body>
+</html>

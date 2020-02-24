@@ -1,0 +1,62 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML><TITLE>RequestParameter Servlet</TITLE>
+<BODY>
+
+This is a RequestParameter that shows how to read parameters passed
+from the client browser through a POST request.
+
+<BR>
+
+<FORM METHOD="post" action="RequestParameterServlet">
+Name:
+<INPUT TYPE="text" NAME="Name" VALUE="Fritz">
+<br>
+Password:
+<INPUT TYPE="password" NAME="PassWd" VALUE="123">
+<br>
+Info:
+<TEXTAREA NAME="TextA" ROWS=5 COLS=5>
+Hi there...
+</TEXTAREA>
+
+<br>
+<br>
+Choose several:
+check1:
+<INPUT TYPE="checkbox" NAME="check1" CHECKED>
+check2:
+<INPUT TYPE="checkbox" NAME="check2">
+<br>
+Choose one:
+smoking:<INPUT TYPE="radio" NAME="smoking" VALUE="smoke" CHECKED>
+non smoking<INPUT TYPE="radio" NAME="smoking" VALUE="no smoke">
+
+<br>
+<SELECT NAME="Country">
+  <OPTION VALUE="DE">De
+  <OPTION VALUE="AU">AU
+  <OPTION VALUE="US">US
+</SELECT>
+
+<br>
+<SELECT NAME="Color" MULTIPLE>
+  <OPTION VALUE="green">green
+  <OPTION VALUE="red">red
+  <OPTION VALUE="blue">blue
+</SELECT>
+
+<br>
+Hidden:
+<INPUT TYPE="hidden" NAME="hidden1" VALUE="IamHidden">
+<INPUT TYPE="hidden" NAME="hidden1" VALUE="IamTheSecondHidden">
+
+<br>
+<INPUT TYPE="submit" NAME="OK" VALUE="OK">
+<INPUT TYPE="submit" NAME="Cancel" VALUE="Cancel">
+<INPUT TYPE="reset" NAME="Reset">
+</FORM>
+
+</BODY>
+</HTML>

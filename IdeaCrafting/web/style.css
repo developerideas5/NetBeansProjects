@@ -1,0 +1,58 @@
+
+	body {
+            font-size: 12px;
+            font-family: Arial, Verdana, Sans-Serif;
+        }
+	textarea {
+            font-size: 12px;
+            font-family: monospace;
+        }
+        form input[type="submit"]{
+            font-size: 12px;
+            font-family: Arial, Verdana, Sans-Serif;
+            background: none;
+            border: none;
+            color: #0370ad;
+            text-decoration: underline;
+            cursor: pointer;
+        }       
+
+	pre {	
+            font-size: 11px;
+            font-family: monospace;
+            /*margin: 10;
+            border: 1px solid #ccc;
+            background: #eee;
+            */
+	}
+
+
+	a {
+		color: #0370ad;
+	}
+	
+	a:visited {
+		color: #0370ad;
+	}
+	
+	a:hover {
+            color: #0370ad;
+            text-decoration: underline;
+	}
+	h1 {
+            font-weight: bold;
+            font-size: 180%;
+            margin-bottom: 10px;
+            text-align: center;
+            margin: 0;
+            padding: 4px 8px;
+            border: 1px solid #ccc;
+/*
+		color: #fff;
+		background: #76b900;
+		//color: #333;
+		//border: 1px solid #a2ff00;
+		//background: #F9E9A9 url(off_bg.gif) repeat-x top left;
+*/
+	}
+
